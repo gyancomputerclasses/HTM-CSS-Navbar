@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            padding: 20px 20px 40px 20px;
+            background-color: black;
+            color: aliceblue;
+        }
+        nav  h4{
+            float: left;
+        }
+        nav ul {
+            list-style-type: none;
+            float: right;
+        }
+        ul li{
+            display: inline;
+        }
+        ul li a{
+            text-decoration: none;
+            color: aliceblue;
+            text-align: center;
+            padding: 14px 16px;
+        }
+        
+        ul li a:hover:not(.Login){
+            background-color: red;
+            border-radius: 30px;
+        }
+        .Login{
+            background-color: yellow;
+            border-radius: 30px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h4>Gyan Computer Classes</h4>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Course</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a class="Login" href="">Login</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
